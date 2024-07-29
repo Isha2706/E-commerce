@@ -30,7 +30,7 @@ const Login = () => {
             {/* Left side - Beauty Image */}
             <div className="md:w-1/2 bg-cover bg-center hidden md:block" style={{backgroundImage: "url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80')"}}>
                 <div className="h-full flex items-center justify-center bg-black bg-opacity-40">
-                    <h1 className="text-4xl font-bold text-white text-center px-6">Discover Your Beauty with GlowUp</h1>
+                    <h1 className="text-4xl font-bold text-white text-center px-6">Discover Your Beauty with Glam Up</h1>
                 </div>
             </div>
 
