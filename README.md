@@ -1,24 +1,37 @@
+# 🛍️ E-Commerce Glam Up
 
-# E-Commerce Glam Up
+A full-featured, responsive **E-commerce web application** built using the **MERN stack** — ReactJS, Redux Toolkit, Node.js, Express, and MongoDB. It supports product browsing, user authentication, admin dashboards, payment integration, and more.
 
-Build a complete Ecommerce Responsive MERN stack application using ReactJS, Redux, Node.js, MongoDB, and Express.
+## 🌐 Live Preview
 
-## Environment Variables
+> _e-commerce-amber-eight.vercel.app_
 
-To run this project, you will need to add the following environment variables to your .env file:
+## 🛠 Tech Stack
 
-### Backend
-      MONGODB_URI=your_mongodb_connection_string      
-      FRONTEND_URL=your_frontend_url 
-      BACKEND_URL=your_backend_url 
-      SECRET_KEY=your_stripe_secret_key
+- **Frontend:** React, Redux Toolkit, Tailwind CSS, Material UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (via Mongoose)
+- **Payment Integration:** Stripe
 
-### Frontend
-    VITE_API_URI=your_backend_api_url
-    VITE_API_PUBLISHABLE_KEY=your_stripe_publishable_key
+## 🔐 Environment Variables
 
+Create a `.env` file in the **backend** and **frontend** directories with the following variables:
 
-## Key Libraries Used
+### Backend (`.env`)
+```env
+MONGODB_URI=your_mongodb_connection_string
+FRONTEND_URL=your_frontend_url
+BACKEND_URL=your_backend_url
+SECRET_KEY=your_stripe_secret_key
+```
+
+### Frontend (`.env`)
+```env
+VITE_API_URI=your_backend_api_url
+VITE_API_PUBLISHABLE_KEY=your_stripe_publishable_key
+```
+
+## 📦 Key Libraries Used
 
 ### Backend
 - express
@@ -42,49 +55,46 @@ To run this project, you will need to add the following environment variables to
 - jwt-decode
 - @stripe/stripe-js
 
-## Database
-- MongoDB
+## 🧪 Features
+- ✅ Product listing and detail view
+- 🛒 Shopping cart and checkout
+- 👤 User registration and login with JWT auth
+- 🧾 Order tracking and history
+- 🔐 Admin dashboard for managing users, products, and orders
+- 💳 Stripe payment gateway integration
+- 🖼️ Image upload with Multer
+- ⚙️ Responsive UI for mobile and desktop
 
-## Tech Stack
+## 🏁 Run Locally
 
-**Client:** React, Redux, TailwindCSS
+1. **Clone the Repository**
 
-**Server:** Node, Express
+   ```bash
+   git clone https://github.com/Isha2706/E-commerce.git
+   cd E-commerce
+   ```
+   
+2. **Install Dependencies**
 
-**Database:** MongoDB
+   For both frontend and backend:
+   ```bash
+   npm install
+   ```
+   
+4. **Start the Server**
 
-**Payment Processing:** Stripe
+   In the backend directory:
+   ```bash
+   npm start
+   ```
+   
+5. **Start the Client**
+   
+   In the frontend directory:
+   ```bash
+   npm run dev
+   ```
 
+## 👨‍💻 Contributing
 
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm start
-```
-
-Start the client
-
-```bash
-  npm run dev
-```
-
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
