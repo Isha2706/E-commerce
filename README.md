@@ -67,28 +67,28 @@ VITE_API_PUBLISHABLE_KEY=your_stripe_publishable_key
 
 ## 🏁 Run Locally
 
-1. **Clone the Repository**
+### 1. Clone the Repository
 
    ```bash
    git clone https://github.com/Isha2706/E-commerce.git
    cd E-commerce
    ```
    
-2. **Install Dependencies**
+### 2. Install Dependencies
 
    For both frontend and backend:
    ```bash
    npm install
    ```
    
-4. **Start the Server**
+### 4. Start the Server
 
    In the backend directory:
    ```bash
    npm start
    ```
    
-5. **Start the Client**
+### 5. Start the Client
    
    In the frontend directory:
    ```bash
